@@ -30,7 +30,7 @@
     </style>
     <script>
         function getInitialTheme() {
-            const savedTheme = localStorage.getItem('theme') || 'dark';
+            const savedTheme = localStorage.getItem('theme') || 'light';
             if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme;
             return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
@@ -183,8 +183,8 @@
     import {preInitTree} from 'https://juavauj.github.io/_lib/pre.js';
     preInitTree();
     await initPage();
-    await initTheme('dark');
-    await initSearch('https://juavauj.github.io', '1743668727328');
+    await initTheme('light');
+    await initSearch('https://juavauj.github.io', '1743717962290');
     document.documentElement.style.visibility = 'visible';
     document.documentElement.style.opacity = '1';
     initToc();
