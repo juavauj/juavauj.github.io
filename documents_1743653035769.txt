@@ -1,0 +1,6 @@
+{
+    "/": {
+        "title": "About me",
+        "text": "About me Welcome to this site. This is how it looks like."
+    }
+}
