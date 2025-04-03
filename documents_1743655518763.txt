@@ -1,0 +1,14 @@
+{
+    "/": {
+        "title": "About me",
+        "text": "About me Welcome to this site. This is how it looks like."
+    },
+    "/documentation/prueba8/prueba8prubea/": {
+        "title": "Prueba8Prubea",
+        "text": "Prueba8Prubea"
+    },
+    "/documentation/prueba/": {
+        "title": "Prueba",
+        "text": "Prueba"
+    }
+}
