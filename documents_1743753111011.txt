@@ -1,0 +1,10 @@
+{
+    "/": {
+        "title": "About",
+        "text": "Hey you, welcome! I'm juavauj, a cybernaut surfing the machine enjoying meaningful experiences. I remember the first time I encounter a computer: It was a Windows 95 PC, totally brand new with just the stock software installed. My father bought it for making his architecture projects on AutoCAD and for experiencing, by his own means, this technology that everybody was talking about: The world wide web. I spent tons of time navigating and getting lost in this new machine, hundreds of hours traveling inside the box or more exactly, seeing and experiencing beyond my own realm, my own reality. I navigate the intersection of  art and technology , weaving between music, sound, visual arts, and computers. Inspired by the creative process, I explore how  curiosity shapes the material creation of an idea —whether through  code, sound waves, or digital structures . I seek to understand and shape the digital world,  uncovering its hidden patterns and unseen structures , with a strong belief in creating  safe digital spaces for artistic and personal expression . I bring  artistic intuition into technical fields , transforming curiosity into innovation and ensuring that the digital landscapes we inhabit remain both  expressive and secure . My journey is about  following the mystery of beauty, guided by inspiration ."
+    },
+    "/documentation/content/content/": {
+        "title": "Content Page",
+        "text": "Content Page"
+    }
+}
