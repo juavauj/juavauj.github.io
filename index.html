@@ -45,7 +45,7 @@
     </style>
     <script>
         function getInitialTheme() {
-            const savedTheme = localStorage.getItem('theme') || 'light';
+            const savedTheme = localStorage.getItem('theme') || 'dark';
             if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme;
             return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
@@ -312,7 +312,7 @@
             <article>
                 <main>
                     <div class="content">
-                        <div class="image-box-wrapper left-aligned"><div class="image-box" style="width: 100%;"><img src="/_images/Flammarion.jpg" style="width: 100%; border-radius: var(--sl-border-radius-small); border: 1px solid var(--sl-color-neutral-300);"></div></div><p dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Cybernaut surfing the web in search of meaningful experiences.</strong></b></p><p dir="ltr"><span style="white-space: pre-wrap;">I navigate the intersection of </span><b><strong class="text-bold" style="white-space: pre-wrap;">art and technology</strong></b><span style="white-space: pre-wrap;">, weaving between music, sound, visual arts, and computers. Inspired by the creative process, I explore how </span><b><strong class="text-bold" style="white-space: pre-wrap;">curiosity shapes the material creation of an idea</strong></b><span style="white-space: pre-wrap;">—whether through </span><b><strong class="text-bold" style="white-space: pre-wrap;">code, sound waves, or digital structures</strong></b><span style="white-space: pre-wrap;">.</span></p><p dir="ltr"><span style="white-space: pre-wrap;">I seek to understand and shape the digital world, </span><b><strong class="text-bold" style="white-space: pre-wrap;">uncovering its hidden patterns and unseen structures</strong></b><span style="white-space: pre-wrap;">, with a strong belief in creating </span><b><strong class="text-bold" style="white-space: pre-wrap;">safe digital spaces for artistic and personal expression</strong></b><span style="white-space: pre-wrap;">. I bring </span><b><strong class="text-bold" style="white-space: pre-wrap;">artistic intuition into technical fields</strong></b><span style="white-space: pre-wrap;">, transforming curiosity into innovation and ensuring that the digital landscapes we inhabit remain both </span><b><strong class="text-bold" style="white-space: pre-wrap;">expressive and secure</strong></b><span style="white-space: pre-wrap;">.</span></p><p dir="ltr"><span style="white-space: pre-wrap;">My journey is about </span><b><strong class="text-bold" style="white-space: pre-wrap;">following the mystery of beauty, guided by inspiration</strong></b><span style="white-space: pre-wrap;">.</span></p><hr>
+                        <div class="image-box-wrapper left-aligned"><div class="image-box" style="width: 70%;"><img src="/_images/Flammarion.jpg" style="width: 100%; border-radius: var(--sl-border-radius-small); border: 1px solid var(--sl-color-neutral-300);"></div></div><p dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Cybernaut surfing the web in search of meaningful experiences.</strong></b></p><p dir="ltr"><span style="white-space: pre-wrap;">I navigate the intersection of </span><b><strong class="text-bold" style="white-space: pre-wrap;">art and technology</strong></b><span style="white-space: pre-wrap;">, weaving between music, sound, visual arts, and computers. Inspired by the creative process, I explore how </span><b><strong class="text-bold" style="white-space: pre-wrap;">curiosity shapes the material creation of an idea</strong></b><span style="white-space: pre-wrap;">—whether through </span><b><strong class="text-bold" style="white-space: pre-wrap;">code, sound waves, or digital structures</strong></b><span style="white-space: pre-wrap;">.</span></p><p dir="ltr"><span style="white-space: pre-wrap;">I seek to understand and shape the digital world, </span><b><strong class="text-bold" style="white-space: pre-wrap;">uncovering its hidden patterns and unseen structures</strong></b><span style="white-space: pre-wrap;">, with a strong belief in creating </span><b><strong class="text-bold" style="white-space: pre-wrap;">safe digital spaces for artistic and personal expression</strong></b><span style="white-space: pre-wrap;">. I bring </span><b><strong class="text-bold" style="white-space: pre-wrap;">artistic intuition into technical fields</strong></b><span style="white-space: pre-wrap;">, transforming curiosity into innovation and ensuring that the digital landscapes we inhabit remain both </span><b><strong class="text-bold" style="white-space: pre-wrap;">expressive and secure</strong></b><span style="white-space: pre-wrap;">.</span></p><p dir="ltr"><span style="white-space: pre-wrap;">My journey is about </span><b><strong class="text-bold" style="white-space: pre-wrap;">following the mystery of beauty, guided by inspiration</strong></b><span style="white-space: pre-wrap;">.</span></p><hr>
                     </div>
                 </main>
                 <div class="footer">
@@ -381,8 +381,8 @@
     import {preInitTree} from 'https://juavauj.github.io/_lib/pre.js';
     preInitTree();
     await initPage();
-    await initTheme('light');
-    await initSearch('https://juavauj.github.io', '1743717962290');
+    await initTheme('dark');
+    await initSearch('https://juavauj.github.io', '1743739326013');
     document.documentElement.style.visibility = 'visible';
     document.documentElement.style.opacity = '1';
     initToc();
